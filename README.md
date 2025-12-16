@@ -7,6 +7,13 @@ This project replicates results from an existing research paper by rebuilding th
 
 To do this, I reconstructed the full process programmatically, working from raw datasets through a series of defined transformations and checks. The emphasis throughout the project was on clarity, traceability, and being able to rerun the entire process without manual intervention.
 
+# Project Structure
+
+- `src/` contains all analysis and data preparation scripts
+- `data/raw/` stores original source data
+- `data/outputs/` includes regression results and tables
+- `docs/` holds documentation and supporting materials
+  
 # Approach
 
 I approached this project by breaking the work into clear stages rather than treating it as a single analysis:
